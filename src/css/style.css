@@ -1,0 +1,60 @@
+body,
+html {
+    background-color: hsl(218, 23%, 16%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    color: hsl(150, 100%, 66%);
+    margin-top: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+.advice {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    margin:50px 20px 10px 20px;
+    text-align: center;
+    
+}
+
+.conteudo {
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 550px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.botao {
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: none;
+    transform:translateY(50%);
+}
+.dice {
+    height: 50%;
+    width: 50%;
+}
+
+.divisoria{
+    display: flex;
+    justify-self: center;
+    margin-top: 40px;
+}
+
+.botao:hover {
+    color: #53FFAB;
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%)
+}
